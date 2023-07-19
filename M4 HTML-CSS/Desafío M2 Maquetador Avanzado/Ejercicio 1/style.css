@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'coolvetica''Roboto';
+    font-weight:400;
+    src: url("Recursos/coolvetica\ rg.otf")    format('opentype');
+}   
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+section{
+    margin-bottom: -4rem;
+}
+.container{
+    margin-top: 0;
+    padding: 1em;
+    display: flex;
+    margin-left: 1em;
+
+}
+main{
+    padding: 1em;
+    justify-content: space-evenly;
+    margin-left: 2em;
+    margin-top: 0;
+    
+    
+}
+.recuadro{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+    background-color: #eff2ff;
+    border-radius: 5%;
+    border:none;
+    padding: 1em;
+    margin-right: 2em;
+    width: 20%; 
+
+
+}
+img{
+    width: 25%;
+    padding-top: 1rem;
+}
+#apple{
+    width: 18%;
+}
+
+h1{
+font-family: coolvetica;
+font-weight: 400;
+font-size: 7.5em;
+color: #0a2ff1;
+margin-left: 2rem;
+margin-top: 0;
+margin-bottom: 1em;
+}
+h2{
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 1.875em;
+    color: #0a2ff1;
+}
+p{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #04146c;
+    text-align: left;
+    margin-left: 1rem;
+}

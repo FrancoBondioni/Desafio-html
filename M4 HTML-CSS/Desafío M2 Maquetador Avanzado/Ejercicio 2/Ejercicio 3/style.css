@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+section{
+    display: flex;
+    margin-top: -10vh;
+
+}
+.parrafo{
+    margin-top: 35vh;
+    font-family:"Mulish";
+    font-weight: 400;
+    font-size: 2.5em;
+    color:  #0a2ff1;
+}
+.titulo{
+    font-weight: 900;
+    font-size: 5.07em;
+    margin-top: 0;
+}
+.cuerpo{
+    font-size: 1.67em;
+    color: 04146c;   
+    margin-top: 0;
+    margin-top: 0;
+}
+
+strong{
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+.boton{
+        font-weight: 700;
+        font-size: 1.84em;
+        color: #f9f9f9;
+        background-color: #0a2ff1;
+        border: none;
+        width: 33.45rem;
+        height: 5.85rem;
+        margin-top: 0;
+    
+}
+.container{
+    display: grid;
+    width:110vh;
+    margin-left: 5vh;
+    margin-right: -8vh;
+}
+.imagenes{
+
+    position: relative;
+    left: 20vh;
+    z-index: 1;
+    width: 100px;
+
+}
+.fondo{
+    top: 45vh;
+    bottom: 10vh;
+    margin-bottom: 30vh;
+    position:absolute; 
+    left: -20vh;
+
+    width: 10px;
+   
+}
+.ip{
+    border: #0a2ff1 3px solid;
+    left: -10vh;
+    width: 45vh;
+    top:23vh;
+
+}
+.fondito{
+    width: 90vh;
+}

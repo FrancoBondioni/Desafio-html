@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin-left: 0;
+}
+body{
+    border-top: 20px solid black;
+    margin-top: 0;
+    
+}
+nav{
+    margin-top: -50px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+.b{
+    display: flex;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-right: 40px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    color: #04146c;
+
+
+}
+.c{
+    display: flex;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-right: 40px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+}
+
+.casillero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+main{
+    text-align: center;
+}
+h1{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 96px;
+    color: #0a2ff1;
+    margin-bottom: 0;
+}
+p{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 34.66px;
+    color: #04146c;
+}
+
+#logo{
+
+    width: 30%;
+    text-align: center;
+    margin-bottom: -70px;
+
+}
+#subtitulo{
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    font-size: 45.33px;
+    color: #0a2ff1;
+    margin-top: 0;
+    margin-left: 30px;
+}
+h3{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    color: #04146c;
+    margin-left: 30px;
+}
+#parrafop2{
+    margin-left: 30px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+}
+
+section{
+    justify-content: space-between;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+
+footer{
+    background-color: #3958F1;
+    margin-top: 0;
+    margin-top: 50px;
+    padding: 50px;
+    
+}
+#logofooter{
+width: 15%;
+height: 10%;
+margin-left: 30px;
+}
+.flexcontainer {
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: -130px;
+  }
+  .fleximagen {
+    width: 350px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .flextexto{
+    width: 100%;
+
+  }
+  #fondo{
+    margin-left: 0;
+    width:1100px;
+    margin-top: 100px;
+  }

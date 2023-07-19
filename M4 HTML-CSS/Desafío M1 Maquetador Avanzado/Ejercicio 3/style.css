@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@font-face {
+    font-family: 'coolvetica rg';
+    font-weight: 400;
+    src: url(Recursos/coolvetica\ rg.otf);
+}   
+body{
+    margin-left: 1em;
+}
+h1{
+    font-family: "coolvetica rg";
+    font-weight: 400;
+    font-size: 7.52em;
+    color: #0a2ff1;
+}
+#Subtitulo{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 2.50rem;
+    color: #04146c;
+}
+span{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #04146c;
+}
+h3{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1.50em;
+    color: #04146c;
+}
+#Titulocasillero{
+    font-family: "Roboto";
+    font-weight: 900 ;
+    font-size: 1.50em;
+    color: #04146c;
+}
+p{
+    font-family: "Roboto";
+    font-weight: 400 ;
+    font-size: 1.50em;
+    color: #04146c;
+}
+.Casillero1{
+    display: inline-block;
+    justify-content:center;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #eff2ff;
+    padding: 1em;
+    margin-right: 5em;
+    margin-left: 4em;
+    border: none;
+}
+.Casillero2{
+    display: inline-block;
+    justify-content:center;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #eff2ff;
+    padding: 1em;
+    margin-right: 4em;
+    border: none;
+}
+.Casillero3{
+    display: inline-block;
+    justify-content:center;
+    width: 25%;
+    border: 1px solid black;
+    background-color: #eff2ff;
+    padding: 1em;
+    border: none;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
+header{
+    margin-top: -6em;
+}

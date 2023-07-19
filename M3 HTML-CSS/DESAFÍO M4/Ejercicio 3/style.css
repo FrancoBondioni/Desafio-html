@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+.textcontain{
+    
+    width: 80%;
+    padding: 10px;
+}
+body{
+    border: 1px solid black;
+}
+.Foto{
+    width: 80%;
+    display: block;
+    margin: auto;
+}   
+header{
+    display: flex;
+    overflow: hidden;
+    background-image: url(src/M4\ -\ Desafío3_img-header.png);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+p{
+    display: flex;
+    flex-direction: column  ;
+    text-align: left; 
+}
+h1{
+margin-left: 50px;
+font-family: "Roboto Slab";
+font-weight: 700;
+font-size: 58.66px;
+color: #0a2ff1;
+}
+.p1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 25.33px;
+    color: #000000;
+    }
+.p2{
+    margin-top: -20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 25.33px;
+    color: #000000;
+}
+.p3{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 25.33px;
+    color: #000000;
+    }
+h3{
+    font-family: "Roboto";
+font-weight: 700;
+font-size: 25.33px;
+color: #0a2ff1;
+}
+.p4{
+font-family: "Roboto";
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+text-align: left;
+}
+button{
+    font-family: "Roboto";
+font-weight: 400;
+font-size: 26.66px;
+background-color: #0a2ff1;
+color: white;
+text-align: center;
+width: 300px;
+height: 50px;
+margin-left: 10%;
+
+}
+footer{
+    border-bottom: 20px solid black;
+    margin-top: 50px;
+}
+.textcontain{
+    margin-left: 9%;
+}
+.p5{
+    margin-left: 9%;
+}
