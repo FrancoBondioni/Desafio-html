@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+*{
+    font-family: "Dongle";
+}
+h1{
+ font-size: 3.75rem;
+ font-weight: 700;   
+}
+#panel-1, #panel-2, #panel-3{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1.5rem;
+    margin-bottom: 1em;
+    width: 60%;
+    animation-name: derecha;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+#panel-1{ 
+    background-color: #ffa500;
+    animation-delay: 0;
+}
+#panel-2{
+    background-color: #f8f29a;
+    animation-delay: 10s;
+}
+#panel-3{
+    background-color: #ffc0cb;
+    animation-delay: 20s;
+}
+@keyframes derecha {
+    from {
+      margin-left:0%;
+      width: 60%;
+    }
+    to {
+      margin-left: 50%;
+      width: 60%;
+    }
+  }

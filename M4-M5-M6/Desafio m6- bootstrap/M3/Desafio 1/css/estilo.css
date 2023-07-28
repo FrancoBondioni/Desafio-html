@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+*{
+    font-family: "Mulish";
+}
+:root{
+    --color-blue-dark: #04146c;
+    --color-blue-light: #8a9af1;
+    --color-blue: #5974ff;
+    --font-weight-regular: 400;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+    --font-style-italic: italic;
+    --font-size-18pt: 1.5rem;
+    --font-size-13pt:1.08rem;
+}
+div{
+    width: 90%;
+}
+#Email, #Contraseña{
+font-weight: var(--font-weight-semibold);
+color: var(--color-blue-dark);
+font-size: var(--font-size-18pt);
+}
+#Recordatorio{
+font-weight: var(--font-weight-regular);
+font-style: var(--font-style-italic);
+color: var(--color-blue-dark);
+font-size: var(--font-size-13pt);
+}
+#Checks{
+font-weight: var(--font-weight-regular);
+color: var(--color-blue-dark);
+font-size: var(--font-size-18pt);
+margin:auto ;
+}
+button{
+    font-weight: var(--font-weight-bold);
+    color: #ffffff;
+    background-color: var(--color-blue);
+    font-size: var(--font-size-18pt);
+    width: 150px;
+    height: 50px;
+}
+.form-check-input{
+    position: relative;
+}

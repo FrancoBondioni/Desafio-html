@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+:root{
+    --bs-azul-titulo: #3957f1;
+    --bs-negro-parrafo: #15163d;
+}
+*{
+    font-family: "Mulish";
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: var(--bs-negro-parrafo);
+    text-align: center;
+
+}
+h1{
+    font-weight: 700;
+    color: var(--bs-azul-titulo);
+    text-align: center;
+    font-size: 3.33rem;
+}
+.parrafo{
+    border-style:solid;
+}
+.container2{
+    flex-wrap:wrap;
+    display: flex;
+}
+.img{
+    width: 100%;
+}
+.txt{
+    border: 3px outset #ffffff;
+}
+@media (max-width: 767.98px) { 
+    .container2{
+        flex-wrap:wrap;
+        display: flex;
+        width: 10%;
+    }
+ }
+ @media(max-width: 991.98px) and (min-width:767.99px)  { 
+    .container2{
+        flex-wrap:wrap;
+        display: flex;
+        width: 40%;
+    }
+}
+@media (min-width: 992px) {
+    .container2{
+        flex-wrap:wrap;
+        display: flex;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

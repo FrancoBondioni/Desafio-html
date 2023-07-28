@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+*{
+    font-family: "Mulish";
+}
+:root{
+    --blue-name: #0a2ff1;
+    --blue-dark: #04146c;
+    --weight-bold:700;
+    --weight-regular:400;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+img{
+    width: 30%;
+}
+#parrafo1, #parrafo2, #parrafo3{
+    text-align: center;
+   
+}
+.subt{
+    font-size: 1.5rem;
+    color: var(--blue-dark);
+    font-weight: var(--weight-bold);
+}
+
+.texto{
+    font-size: 1.5rem;
+    color: var(--blue-dark);
+    font-weight: var(--weight-regular);
+}
+#button{
+    background-color: none;
+    border: 3px solid var(--blue-name);
+    align-items: center;
+    color: var(--blue-dark);
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: var(--weight-regular);
+    margin-left: 20%;
+}
+.nombre{
+    color: var(--blue-name);
+    font-weight: var(--weight-bold);
+    font-size: 2.5rem;
+}
+#titulo{
+    font-size:4.08rem;
+    font-weight: var(--weight-bold);
+    color: var(--blue-dark);
+}
+

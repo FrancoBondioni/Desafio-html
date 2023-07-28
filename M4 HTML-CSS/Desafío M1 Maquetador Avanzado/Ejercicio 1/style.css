@@ -5,11 +5,8 @@
     src: url("Recursos/Roboto-Regular.ttf")    format("truetype");
     src: url("Recursos/Roboto-Light.ttf")    format("truetype");
 }   
-
- 
  main{
 width: 70%;
-display: inline-flexbox;
 text-align: center; 
 margin: auto;
 }
